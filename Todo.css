@@ -1,0 +1,60 @@
+/* Full-page background */
+.app {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    
+
+
+    background-size: cover;
+    background-position: left;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Form container */
+  .form-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* Labels */
+  label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  /* Inputs */
+  input {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+  
+  /* Button */
+  button {
+    width: 100%;
+    padding: 10px;
+    background: #00aaff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background: #007acc;
+  }
+  
